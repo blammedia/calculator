@@ -1,9 +1,9 @@
 from add import add
-from input import input_two_integer
+from input import input_integer
 
 
 def main():
-    a, b = input_two_integer()
+    a, b = input_integer()
     c = add(a, b)
     print(c)
 
