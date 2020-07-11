@@ -3,9 +3,9 @@ from input import input_infinite_integer
 
 
 def main():
-    a, b = input_infinite_integer()
-    c = add(a, b)
-    print(c)
+    input_list = input_infinite_integer()
+    sum = add(input_list)
+    print(sum)
 
 
 if __name__ == '__main__':
