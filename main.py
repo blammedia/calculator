@@ -1,5 +1,5 @@
-from add import add
-from input import input_infinite_integer
+from .add_p import add, msg
+from .input import input_infinite_integer
 
 
 def main():
@@ -9,4 +9,5 @@ def main():
 
 
 if __name__ == '__main__':
+    print(msg)
     main()
